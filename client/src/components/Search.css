@@ -1,0 +1,50 @@
+.SearchBox {
+    padding-top: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SearchInput {
+
+}
+
+.SearchOK {
+
+}
+
+.Results {
+    font-size: 32px;
+}
+
+.search_ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* center the <li>s horizontally */
+}
+
+.search_li {
+  width: 80vw; /* fixed width relative to screen */
+  padding: 10px;
+  margin: 5px 0;
+  color: black;
+  /* background-color: rgb(166, 218, 255); */
+  background-color: red;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+
+  font-size: clamp(1.8rem, 2.5vw, 2.5rem); /* responsive text size */
+  text-align: center; /* optional: center the text */
+  white-space: nowrap; /* prevent wrapping */
+  overflow: hidden; /* hide overflowed text */
+  text-overflow: ellipsis; /* show "..." if it's too long */
+}
+
+.search_li:hover {
+  background-color: black;
+  /* color: rgb(166, 218, 255); */
+  color:red;
+}

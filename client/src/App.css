@@ -1,0 +1,24 @@
+.RootTab{
+  /* background-color: rgb(166, 218, 255); */
+  background-color: black;
+  color: red;
+  height: 100vh;
+  font-size: 42px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ButtonTab{
+  margin-top: 5%;
+  margin-bottom: 24px;
+}
+
+button {
+ font-size: 32px;
+}
+
+body {
+  margin: 0px;
+}
